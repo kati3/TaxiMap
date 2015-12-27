@@ -57,6 +57,7 @@ $(document).ready(function(){
 				// clear the marker layer
 				pointClusterer.removeLayer(pointClusterer.layer);
 				// make a new layer with filtered data
+				console.log(hourTaxi.top(Infinity));
 				// pointClusterer = new QCluster.PointClusterer(hourTaxi.top(Infinity), 'nigeria', map, 'nigeria-layer', optionQ);
 			}
 
